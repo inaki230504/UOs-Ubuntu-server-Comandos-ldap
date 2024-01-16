@@ -1,0 +1,7 @@
+#Para extraer el contenido de un fichero .ldif 
+ldapadd -x -D (DN del usuario administrador del servidor ldap) -W -f (nombre del fichero .ldif)
+
+#Para visualizar la estructura logica del subsistema de un servidor ldap
+ldapsearch -Q -LLL -Y EXTERNAL -H ldapi:///
+slapcat
+
