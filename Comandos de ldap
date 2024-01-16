@@ -4,4 +4,5 @@ ldapadd -x -D (DN del usuario administrador del servidor ldap) -W -f (nombre del
 #Para visualizar la estructura logica del subsistema de un servidor ldap
 ldapsearch -Q -LLL -Y EXTERNAL -H ldapi:///
 slapcat
-
+#Para borrar un objeto
+Ldapdelete -x -W -D (DN del usuario administrador del ldap) (DN del objeto que queramos borrar).
