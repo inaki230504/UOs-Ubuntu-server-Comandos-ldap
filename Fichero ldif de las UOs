@@ -1,0 +1,19 @@
+dn: ou=Departamento,dc=tir-smc-comp,dc=mylocal
+objectClass: organizationalUnit
+ou: Departamento
+
+dn: ou=Comite-de-acceso,ou=Departamento,dc=tir-smc-comp,dc=mylocal
+objectClass: organizationalUnit
+ou: Comite-de-acceso
+
+dn: ou=Visitas-guiadas,ou=Departamento,dc=tir-smc-comp,dc=mylocal
+objectClass: organizationalUnit
+ou: Visitas-guiadas
+
+dn: ou=Procesos-de-evaluacion,ou=Departamento,dc=tir-smc-comp,dc=mylocal
+objectClass: organizationalUnit
+ou: Procesos-de-evaluacion
+
+dn: ou=Administracion-de-sistemas,ou=Departamento,dc=tir-smc-comp,dc=mylocal
+objectClass: organizationalUnit
+ou: Administracion-de-sistemas
