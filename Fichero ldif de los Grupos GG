@@ -1,0 +1,19 @@
+dn: cn=GGComite-acceso,ou=Comite-de-acceso,ou=Departamento,dc=tir-smc-comp,dc=mylocal
+objectClass: posixGroup
+cn: GGComite-acceso
+gidNumber: 6000
+
+dn: cn=GGVisitas-guiadas,ou=Visitas-guiadas,ou=Departamento,dc=tir-smc-comp,dc=mylocal
+objectClass: posixGroup
+cn: GGVisitas-guiadas
+gidNumber: 6001
+
+dn: cn=GGProcesos-de-evaluacion,ou=Procesos-de-evaluacion,ou=Departamento,dc=tir-smc-comp,dc=mylocal
+objectClass: posixGroup
+cn: GGProcesos-de-evaluacion
+gidNumber: 6002
+
+dn: cn=GGAdministracion-sistemas,ou=Administracion-de-sistemas,ou=Departamento,dc=tir-smc-comp,dc=mylocal
+objectClass: posixGroup
+cn: GGAdministracion-sistemas
+gidNumber: 6003
