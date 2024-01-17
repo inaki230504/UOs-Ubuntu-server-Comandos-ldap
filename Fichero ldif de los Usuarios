@@ -1,0 +1,58 @@
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: LNAVARROR
+sn: Navarro Ruiz
+givenName: Luis
+cn: Luis NAVARRO RUIZ
+displayName: LNAVARRO Comite de acceso
+uidNumber: 10000
+gidNumber: 6000
+userPassword: {SSHA}JFy73Tkf10GYdNXZt3u6WyDNXJPXGav8
+loginshell: /bin/bash
+homeDirectory: /home/Comite-de-acceso/Luis
+
+dn: uid=SALABUS,cn=GGVisitas-guiadas,ou=Visitas-guiadas,ou=Departamento,dc=tir-smc-comp,dc=mylocal
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: SALABUS
+sn: Alabu Sancho
+givenName: Susana
+cn: Susana Alabu Sancho
+displayName: SALABUS Visitas Guiadas
+uidNumber: 10001
+gidNumber: 6001
+userPassword: {SSHA}JFy73Tkf10GYdNXZt3u6WyDNXJPXGav8
+loginshell: /bin/bash
+homeDirectory: /home/Visitas-guiadas/Susana
+
+dn: uid=PGOMISZ,cn=GGProcesos-de-evaluacion,ou=Procesos-de-evaluacion,ou=Departamento,dc=tir-smc-comp,dc=mylocal
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: PGOMISZ
+sn: Gomis Zambujo
+givenName: Pedro
+cn: Pedro Gomis Zambujo
+displayName: PGOMISZ Proceos-de-evaluacion
+uidNumber: 10002
+gidNumber: 6002
+userPassword: {SSHA}JFy73Tkf10GYdNXZt3u6WyDNXJPXGav8
+loginshell: /bin/bash
+homeDirectory: /home/Procesos-de-evaluacion/Pedro
+
+dn: uid=PVALENCIAR,cn=GGAdministracion-sistemas,ou=Administracion-de-sistemas,ou=Departamento,dc=tir-smc-comp,dc=mylocal
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: PVALENCIAR
+sn: Gomis Zambujo
+givenName: Piedad
+cn: Piedad Valencia Ruiz
+displayName: PVALENCIAR Administracion-sistemas
+uidNumber: 10003
+gidNumber: 6003
+userPassword: {SSHA}JFy73Tkf10GYdNXZt3u6WyDNXJPXGav8
+loginshell: /bin/bash
+homeDirectory: /home/Administracion-sistemas/Piedad
