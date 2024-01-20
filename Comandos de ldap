@@ -6,3 +6,5 @@ ldapsearch -Q -LLL -Y EXTERNAL -H ldapi:///
 slapcat
 #Para borrar un objeto
 Ldapdelete -x -W -D (DN del usuario administrador del ldap) (DN del objeto que queramos borrar).
+#Para modificar un objeto del directorio ldap
+ldapmodify -x -D (Dn del usuario admin) -W -f (Fichero.ldif el cual contiene la modificación)
