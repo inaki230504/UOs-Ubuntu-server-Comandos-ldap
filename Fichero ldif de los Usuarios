@@ -1,3 +1,4 @@
+dn: uid=LNAVARROR,cn=GGComite-acceso,ou=Comite-de-acceso,ou=Departamento,dc=tir-smc-comp,dc=mylocal
 objectClass: inetOrgPerson
 objectClass: posixAccount
 objectClass: shadowAccount
